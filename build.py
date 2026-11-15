@@ -8,6 +8,8 @@ ROOT = Path(__file__).parent
 DIST = ROOT / "dist"
 CFG = json.loads((ROOT / "site.json").read_text())
 URL = CFG["url"].rstrip("/")
+from urllib.parse import urlparse
+BASE = urlparse(URL).path.rstrip("/")
 
 
 def load_posts():
@@ -51,6 +53,7 @@ def page(title, desc, body, path, extra_head=""):
 def write(path, content):
     out = DIST / path.lstrip("/") / "index.html" if path.endswith("/") else DIST / path.lstrip("/")
     out.parent.mkdir(parents=True, exist_ok=True)
+    content = content.replace('href="/', f'href="{BASE}/').replace('src="/', f'src="{BASE}/')
     out.write_text(content, encoding="utf-8")
 
 
@@ -102,7 +105,7 @@ def build():
                     for p in posts[:20])
     (DIST / "feed.xml").write_text(f'<?xml version="1.0"?><rss version="2.0"><channel><title>{CFG["name"]}</title>'
                                    f"<link>{URL}</link><description>{CFG['description']}</description>{items}</channel></rss>")
-    if CFG["url"] != "https://example.com":
+    if not BASE and "github.io" not in URL and "example.com" not in URL:
         (DIST / "CNAME").write_text(URL.split("://")[1])
     print(f"Built {len(posts)} posts -> {DIST}")
 
