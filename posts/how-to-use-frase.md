@@ -12,6 +12,8 @@ We opened a Frase trial and took it from an empty account to a scored, 1,484-wor
 
 [Start your free 7-day Frase trial]({{aff:frase}}){: .cta rel="sponsored nofollow" }
 
+> **Want this as a PDF?** Download [The Frase Playbook](/free-frase-playbook/), our free 21-page guide with a 7-day trial plan, a plan-picker worksheet and checklists.
+
 <div class="verdict" markdown="1">
 **The short version**
 
