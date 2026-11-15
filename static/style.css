@@ -32,3 +32,4 @@ th{background:#f4f4f2}
 .cta:hover{opacity:.9}
 footer{border-top:1px solid var(--line);color:var(--muted);font-size:14px;padding:24px 0;background:#fff}
 @media(max-width:600px){.hero h1{font-size:30px}.post h1{font-size:28px}nav a{margin-left:12px}}
+.post img{max-width:100%;height:auto;border:1px solid var(--line);border-radius:8px;margin:8px 0 4px;display:block}

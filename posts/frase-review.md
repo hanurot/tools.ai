@@ -2,6 +2,7 @@
 title: "Frase Review (2026): Is the AI SEO Agent Worth $49 a Month?"
 description: "An honest Frase review: what the AI Agent, GEO score and Content Guard actually do, 2026 pricing per article, real weaknesses, and who should skip it."
 date: 2026-11-15
+updated: 2026-11-15
 type: Review
 slug: frase-review
 ---
@@ -19,6 +20,8 @@ slug: frase-review
 
 **Price:** from $39/month billed yearly ($49 monthly). Every plan includes every feature.
 </div>
+
+> **Update (Nov 15, 2026):** we ran a full hands-on trial. Our AI draft scored 94% GEO, 78% SEO and 33% EEAT. See every step and screenshot in our [step-by-step Frase tutorial](/how-to-use-frase/).
 
 ## What Frase is in 2026
 
@@ -44,11 +47,11 @@ As you write, the editor scores your draft against what's ranking, the way Surfe
 
 ### 4. AI Visibility tracking
 
-Frase tracks whether AI search engines mention your brand or pages. Coverage grows by plan: the cheaper tiers track ChatGPT and Google AI, and higher tiers add Perplexity, Claude and Gemini. Few content tools offer this.
+Frase tracks whether AI search engines mention your brand or pages. Coverage grows by plan: Starter tracks ChatGPT and Google AI, Professional adds Perplexity, and Scale covers five engines including Claude and Gemini. It also shows which websites the AI answers cite, which tells you where to get featured. Few content tools offer this.
 
 ### 5. Content Guard
 
-Content Guard watches published pages for ranking and traffic decay and drafts fixes. It's useful, but coverage is small on Starter (3 pages) and grows to 15 on Professional and 50 on Scale.
+Content Guard watches published pages for ranking and traffic decay and drafts fixes. It watches 10 pages on Starter, 75 on Professional and 300 on Scale.
 
 ### 6. Brand Voice, integrations and API
 
@@ -69,7 +72,7 @@ Billed yearly, that works out to roughly **$3.90 per article on Starter, $2.58 o
 
 **The catch:** unused articles don't roll over. If you buy Starter and write four posts, each one effectively costs you about $10.
 
-*Prices checked November 2026. Confirm on Frase's pricing page before buying, because they change often. The top tier dropped from $720 to $299 in April 2026.*
+*Prices confirmed inside the Frase app on November 15, 2026. Confirm on Frase's pricing page before buying, because they change often. The top tier dropped from $720 to $299 in April 2026.*
 
 ## Pros
 
@@ -83,7 +86,7 @@ Billed yearly, that works out to roughly **$3.90 per article on Starter, $2.58 o
 
 - **AI prose still needs editing.** Reviewers find the drafts accurate but flat. Treat Frase as a first-draft and structure tool, not a ghostwriter.
 - **Keyword research is shallow.** You'll still want Semrush, Ahrefs or a free tool to find keywords.
-- **Starter is tight:** one seat, one site, and article credits that expire monthly.
+- **Starter is tight:** one seat, one site, and article credits that expire monthly. "Improve scores" and "Rewrite" each count as one article too.
 - **Seven days is short** to judge an SEO tool, because rankings take weeks.
 - **Mixed sentiment off G2.** Frase scores 4.8/5 from about 300 reviews on G2, but its small Trustpilot profile is far lower, mostly over pricing and billing. Some long-time users complained when lifetime-deal features moved into paid plans.
 
