@@ -50,6 +50,30 @@ def page(title, desc, body, path, extra_head=""):
 </body></html>"""
 
 
+def signup_box():
+    ml = CFG.get("mailerlite")
+    if not ml:
+        return ""
+    action = f"https://assets.mailerlite.com/jsonp/{ml['account']}/forms/{ml['form']}/subscribe"
+    return f"""<section class="signup" id="get-the-playbook">
+<h2>Get the free Frase Playbook by email</h2>
+<p>A 21-page PDF: 7-day trial plan, 28 real screenshots, a plan-picker worksheet and an EEAT editing checklist. Plus occasional new reviews and tutorials.</p>
+<form class="signup-form" action="{action}" method="post">
+<input type="email" name="fields[email]" placeholder="you@gmail.com" required aria-label="Email address">
+<input type="hidden" name="ml-submit" value="1"><input type="hidden" name="anticsrf" value="true">
+<button type="submit">Send me the guide</button>
+</form>
+<p class="signup-ok" hidden>Thanks! Check your inbox. You can also <a href="/downloads/the-frase-playbook.pdf">download the PDF right now</a>.</p>
+<p class="signup-small">No spam. Unsubscribe anytime with one click. See our <a href="/privacy/">privacy policy</a>.</p>
+</section>
+<script>
+document.querySelectorAll('.signup-form').forEach(function(f){{f.addEventListener('submit',function(e){{
+e.preventDefault();var b=f.querySelector('button');b.disabled=true;b.textContent='Sending…';
+var done=function(){{f.hidden=true;f.parentNode.querySelector('.signup-ok').hidden=false;}};
+fetch(f.action,{{method:'POST',body:new FormData(f),mode:'no-cors'}}).then(done,done);}});}});
+</script>"""
+
+
 def write(path, content):
     out = DIST / path.lstrip("/") / "index.html" if path.endswith("/") else DIST / path.lstrip("/")
     out.parent.mkdir(parents=True, exist_ok=True)
@@ -80,7 +104,7 @@ def build():
                   'We may earn a commission if you buy through them, at no extra cost to you.</p>')
         upd = f" · Updated {p['updated']}" if p.get("updated") else ""
         body = (f'<article class="post"><h1>{html.escape(p["title"])}</h1>'
-                f'<p class="meta">By {CFG["author"]} · {p["date"]}{upd}</p>{notice}{p["html"]}</article>')
+                f'<p class="meta">By {CFG["author"]} · {p["date"]}{upd}</p>{notice}{p["html"]}</article>' + signup_box())
         write(f"/{p['slug']}/", page(f"{p['title']} | {CFG['name']}", p["description"], body, f"/{p['slug']}/", head))
 
     hero = f'<section class="hero"><h1>{CFG["tagline"]}</h1><p>{CFG["description"]}</p></section>'
