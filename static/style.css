@@ -5,7 +5,8 @@ body{margin:0;font:17px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Ro
 a{color:var(--accent)}
 .top{border-bottom:1px solid var(--line);background:#fff}
 .top .wrap{display:flex;justify-content:space-between;align-items:center;height:60px}
-.logo{font-weight:800;font-size:20px;text-decoration:none;color:var(--ink);letter-spacing:-.02em}
+.logo{display:inline-flex;align-items:center;gap:9px;font-weight:800;font-size:20px;text-decoration:none;color:var(--ink);letter-spacing:-.02em}
+.logo img{display:block;border-radius:7px}.logo b{color:var(--accent);font-weight:800}
 nav a{margin-left:20px;text-decoration:none;color:var(--muted);font-size:15px}
 .hero{padding:56px 0 28px}
 .hero h1{font-size:38px;line-height:1.15;margin:0 0 12px;letter-spacing:-.02em}
@@ -31,7 +32,8 @@ th{background:#f4f4f2}
 .cta{display:inline-block;background:var(--accent);color:#fff!important;text-decoration:none;font-weight:600;padding:12px 22px;border-radius:8px;margin:8px 0}
 .cta:hover{opacity:.9}
 footer{border-top:1px solid var(--line);color:var(--muted);font-size:14px;padding:24px 0;background:#fff}
-@media(max-width:600px){.hero h1{font-size:30px}.post h1{font-size:28px}nav a{margin-left:12px}}
+@media(max-width:600px){.hero h1{font-size:30px}.post h1{font-size:28px}nav a{margin-left:10px;font-size:14px}.logo{font-size:17px;gap:7px}.logo img{width:26px;height:26px}}
+@media(max-width:380px){nav a[href$="disclosure/"]{display:none}}
 .post img{max-width:100%;height:auto;border:1px solid var(--line);border-radius:8px;margin:8px 0 4px;display:block}
 .signup{background:#fff;border:2px solid var(--accent);border-radius:12px;padding:22px 24px;margin:36px 0}
 .signup h2{margin:0 0 6px;font-size:22px}

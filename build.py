@@ -39,10 +39,11 @@ def page(title, desc, body, path, extra_head=""):
 <link rel="canonical" href="{canonical}">
 <meta property="og:title" content="{html.escape(title)}"><meta property="og:description" content="{html.escape(desc)}">
 <meta property="og:url" content="{canonical}"><meta property="og:type" content="article">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="stylesheet" href="/style.css"><link rel="alternate" type="application/rss+xml" href="/feed.xml">
 {extra_head}
 </head><body>
-<header class="top"><div class="wrap"><a class="logo" href="/">{CFG['name']}</a>
+<header class="top"><div class="wrap"><a class="logo" href="/"><img src="/favicon.svg" alt="" width="30" height="30"><span>Stack<b>Verdict</b></span></a>
 <nav><a href="/">Reviews</a><a href="/about/">About</a><a href="/disclosure/">Disclosure</a></nav></div></header>
 <main class="wrap">{body}</main>
 <footer><div class="wrap"><p>{CFG['name']} is reader-supported. Some links are affiliate links: if you buy through them we may earn a commission at no extra cost to you. <a href="/disclosure/">Learn more</a>.</p>
@@ -98,7 +99,9 @@ def build():
         schema = {"@context": "https://schema.org", "@type": "Article", "headline": p["title"],
                   "description": p["description"], "datePublished": p["date"],
                   "dateModified": str(p.get("updated", p["date"])),
-                  "author": {"@type": "Organization", "name": CFG["author"]}}
+                  "author": {"@type": "Organization", "name": CFG["author"]},
+                  "publisher": {"@type": "Organization", "name": CFG["name"],
+                                "logo": {"@type": "ImageObject", "url": f"{URL}/icon-512.png"}}}
         head = f'<script type="application/ld+json">{json.dumps(schema)}</script>'
         notice = ('<p class="notice">Disclosure: this article contains affiliate links. '
                   'We may earn a commission if you buy through them, at no extra cost to you.</p>')
