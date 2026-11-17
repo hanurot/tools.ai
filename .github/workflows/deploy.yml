@@ -28,3 +28,10 @@ jobs:
           path: dist
       - id: deployment
         uses: actions/deploy-pages@v4
+      - name: Notify search engines (IndexNow)
+        continue-on-error: true
+        run: |
+          sleep 30
+          URLS=$(grep -o '<loc>[^<]*</loc>' dist/sitemap.xml | sed 's/<[^>]*>//g' | python3 -c "import sys,json;print(json.dumps([l.strip() for l in sys.stdin if l.strip()]))")
+          curl -sS -X POST https://api.indexnow.org/indexnow -H 'Content-Type: application/json; charset=utf-8' \
+            -d "{\"host\":\"rankingtools.blog\",\"key\":\"720add560fc1e233260e18f9ec9d60b4\",\"keyLocation\":\"https://rankingtools.blog/720add560fc1e233260e18f9ec9d60b4.txt\",\"urlList\":$URLS}" -w "\nIndexNow HTTP %{http_code}\n"
