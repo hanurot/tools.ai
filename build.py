@@ -44,10 +44,10 @@ def page(title, desc, body, path, extra_head=""):
 {extra_head}
 </head><body>
 <header class="top"><div class="wrap"><a class="logo" href="/"><img src="/favicon.svg" alt="" width="30" height="30"><span>Stack<b>Verdict</b></span></a>
-<nav><a href="/">Reviews</a><a href="/about/">About</a><a href="/disclosure/">Disclosure</a></nav></div></header>
+<nav><a href="/">Reviews</a><a href="/about/">About</a><a href="/disclosure/">Disclosure</a><a href="/contact/">Contact</a></nav></div></header>
 <main class="wrap">{body}</main>
 <footer><div class="wrap"><p>{CFG['name']} is reader-supported. Some links are affiliate links: if you buy through them we may earn a commission at no extra cost to you. <a href="/disclosure/">Learn more</a>.</p>
-<p>&copy; {datetime.date.today().year} {CFG['name']} · <a href="/privacy/">Privacy</a></p></div></footer>
+<p>&copy; {datetime.date.today().year} {CFG['name']} · <a href="/privacy/">Privacy</a> · <a href="/contact/">Contact</a></p></div></footer>
 </body></html>"""
 
 
@@ -114,7 +114,7 @@ def build():
     write("/", page(f"{CFG['name']} – {CFG['tagline']}", CFG["description"],
                     hero + '<div class="grid">' + "".join(card(p) for p in posts) + "</div>", "/"))
 
-    for slug in ("about", "disclosure", "privacy"):
+    for slug in ("about", "disclosure", "privacy", "contact"):
         f = ROOT / "pages" / f"{slug}.md"
         if f.exists():
             raw = f.read_text(encoding="utf-8")
@@ -122,7 +122,7 @@ def build():
             write(f"/{slug}/", page(f"{title} | {CFG['name']}", title,
                                     f'<article class="post">{markdown.markdown(raw)}</article>', f"/{slug}/"))
 
-    urls = ["/"] + [f"/{p['slug']}/" for p in posts] + ["/about/", "/disclosure/", "/privacy/"]
+    urls = ["/"] + [f"/{p['slug']}/" for p in posts] + ["/about/", "/disclosure/", "/privacy/", "/contact/"]
     (DIST / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
         + "".join(f"<url><loc>{URL}{u}</loc></url>" for u in urls) + "</urlset>")
