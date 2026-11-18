@@ -94,11 +94,44 @@ Starter and Professional can be upgraded for more credits. Starter goes up to 50
 
 ## Cons
 
-- **Billing and refund complaints.** This is the biggest red flag. Capterra rates AdCreative.ai 3.3/5 from about 170 reviews, and many low scores are about being charged at sign-up, auto-renewal and slow refunds. G2 is kinder at around 4.3/5.
+- **Billing and refund complaints.** This is the biggest red flag. Capterra rates AdCreative.ai 3.3/5 from about 170 reviews, and many low scores are about being charged at sign-up, auto-renewal and slow refunds. G2 is kinder at around 4.3/5. See [what customers say](#what-customers-say-good-and-bad) below.
 - **Strict refund policy.** Refunds are available within 7 days on monthly plans and 30 days on yearly plans, **only if you haven't used the platform.** Generating a single creative counts as use.
 - **Templated look.** Output can look generic, and you get less control than in Canva or Figma.
 - **Big jump for video.** Video needs Professional at $249/month, a big step from $39.
 - **Starter is small.** 20 downloads, 1 brand and 1 user go quickly if you run several campaigns.
+
+## What customers say (good and bad)
+
+We read through recent reviews on G2, Capterra and Trustpilot. The ratings split sharply depending on where you look:
+
+| Platform | Rating | Reviews | Main theme |
+|---|---|---|---|
+| G2 | 4.3 / 5 | ~790 | Easy to use, saves time |
+| Trustpilot | ~3.2–3.4 / 5 | 4,000+ | Mostly 5-star or 1-star; billing disputes dominate the 1-stars |
+| Capterra | 3.3 / 5 | ~170 | Ease of use 3.6, customer service 3.2 |
+
+*Ratings checked November 18, 2026. Trustpilot's score differs slightly between its regional pages.*
+
+### What happy customers praise
+
+- **Speed.** The most common praise is that it turns out many ready-to-use banners in minutes. Small teams use it to replace hours of design work.
+- **Ease of use.** On G2, "ease of use" is the most-mentioned positive by far. Setting up a brand is simple, and it pulls colors from your logo.
+- **Lots of options to test.** Users like getting many variations at once for A/B testing on Facebook and Google.
+- **Better conversions (for some).** A number of reviewers say their ads converted better, though others call the results inconsistent.
+- **Helpful support agents.** Several Trustpilot reviews thank named support staff for resolving problems, including refunds.
+
+### What unhappy customers complain about
+
+- **Billing after the trial.** This is the biggest complaint by a wide margin. On Capterra it's the most common theme in negative reviews, and on Trustpilot it drives most 1-star reviews. People describe being charged right after starting a "free" trial, charged again after cancelling, or being billed for a full plan (one Trustpilot reviewer titled their review "Misleading onboarding → instantly charged $400").
+- **Slow or missing refunds.** Some reviewers say refunds were approved but took weeks to arrive, or never arrived. Others say their refund was eventually paid in full. Keep written confirmation of everything.
+- **Generic or odd-looking output.** About a quarter of the negative Capterra reviews say designs look templated, unrealistic or repetitive, and that video output is weak.
+- **Hard to edit.** Reviewers say you can't freely move, remove or resize elements in a generated design, so you often end up fixing ads in another tool.
+- **Price.** "Expensive" is the most-mentioned con on G2, followed by limited creativity.
+- **Missing formats and bugs.** A few users mention missing ad sizes (such as some mobile sizes), missing image previews and a clunky interface.
+
+### Our take on the reviews
+
+The pattern is clear: **people who use the product mostly like it; people who get surprised by a charge hate the company.** The billing complaints are serious enough that we would only recommend it if you follow the safe-trial steps below. AdCreative.ai does reply to most complaints publicly and many disputes end with a refund, but you shouldn't have to chase one.
 
 ## Who should use AdCreative.ai
 
