@@ -1,6 +1,6 @@
 # About StackVerdict
 
-StackVerdict publishes reviews, comparisons and buying guides for AI SEO and content-writing software. We write for bloggers, freelance writers and small marketing teams who want to know which tool is worth paying for before they hand over a card.
+StackVerdict publishes reviews, comparisons and buying guides for AI marketing software: SEO, content-writing and ad creative tools. We write for bloggers, freelance writers and small marketing teams who want to know which tool is worth paying for before they hand over a card.
 
 ## How we review
 
