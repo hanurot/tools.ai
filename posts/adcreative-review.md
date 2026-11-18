@@ -106,11 +106,11 @@ We read through recent reviews on G2, Capterra and Trustpilot. The ratings split
 
 | Platform | Rating | Reviews | Main theme |
 |---|---|---|---|
-| G2 | 4.3 / 5 | ~790 | Easy to use, saves time |
-| Trustpilot | ~3.2–3.4 / 5 | 4,000+ | Mostly 5-star or 1-star; billing disputes dominate the 1-stars |
-| Capterra | 3.3 / 5 | ~170 | Ease of use 3.6, customer service 3.2 |
+| [G2](https://www.g2.com/products/adcreative-ai/reviews){: rel="nofollow" target="_blank"} | 4.3 / 5 | ~790 | Easy to use, saves time |
+| [Trustpilot](https://www.trustpilot.com/review/adcreative.ai){: rel="nofollow" target="_blank"} | ~3.2–3.4 / 5 | 4,000+ | Mostly 5-star or 1-star; billing disputes dominate the 1-stars |
+| [Capterra](https://www.capterra.com/p/253052/AdCreativeai/reviews){: rel="nofollow" target="_blank"} | 3.3 / 5 | ~170 | Ease of use 3.6, customer service 3.2 |
 
-*Ratings checked November 18, 2026. Trustpilot's score differs slightly between its regional pages.*
+*Ratings checked November 18, 2026. Trustpilot's score differs slightly between its regional pages. Click a platform name to read the reviews yourself.*
 
 ### What happy customers praise
 
@@ -122,12 +122,14 @@ We read through recent reviews on G2, Capterra and Trustpilot. The ratings split
 
 ### What unhappy customers complain about
 
-- **Billing after the trial.** This is the biggest complaint by a wide margin. On Capterra it's the most common theme in negative reviews, and on Trustpilot it drives most 1-star reviews. People describe being charged right after starting a "free" trial, charged again after cancelling, or being billed for a full plan (one Trustpilot reviewer titled their review "Misleading onboarding → instantly charged $400").
+- **Billing after the trial.** This is the biggest complaint by a wide margin. On Capterra it's the most common theme in negative reviews, and on Trustpilot it drives most 1-star reviews. People describe being charged right after starting a "free" trial, charged again after cancelling, or being billed for a full plan (one reviewer titled their review "Misleading onboarding → instantly charged $400", [Trustpilot, April 22, 2026](https://nz.trustpilot.com/review/adcreative.ai?page=5){: rel="nofollow" target="_blank"}).
 - **Slow or missing refunds.** Some reviewers say refunds were approved but took weeks to arrive, or never arrived. Others say their refund was eventually paid in full. Keep written confirmation of everything.
 - **Generic or odd-looking output.** About a quarter of the negative Capterra reviews say designs look templated, unrealistic or repetitive, and that video output is weak.
 - **Hard to edit.** Reviewers say you can't freely move, remove or resize elements in a generated design, so you often end up fixing ads in another tool.
 - **Price.** "Expensive" is the most-mentioned con on G2, followed by limited creativity.
 - **Missing formats and bugs.** A few users mention missing ad sizes (such as some mobile sizes), missing image previews and a clunky interface.
+
+**Where these come from:** praise and complaint themes are summarized from the [Capterra](https://www.capterra.com/p/253052/AdCreativeai/reviews){: rel="nofollow" target="_blank"} review page (about 40 recent written reviews), the "pros and cons" summary on [G2](https://www.g2.com/products/adcreative-ai/reviews){: rel="nofollow" target="_blank"}, and recent reviews on [Trustpilot](https://www.trustpilot.com/review/adcreative.ai){: rel="nofollow" target="_blank"} (February to May 2026). We paraphrase reviewers rather than quoting them at length.
 
 ### Our take on the reviews
 
