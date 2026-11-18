@@ -34,6 +34,7 @@ def page(title, desc, body, path, extra_head=""):
     return f"""<!DOCTYPE html>
 <html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="impact-site-verification" value="9945fcc8-ba51-42b7-b2d4-29688b8ca64f">
 <title>{html.escape(title)}</title>
 <meta name="description" content="{html.escape(desc)}">
 <link rel="canonical" href="{canonical}">
