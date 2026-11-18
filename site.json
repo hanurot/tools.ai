@@ -14,5 +14,10 @@
   "mailerlite": {
     "account": "2797499",
     "form": "204207332658251137"
-  }
+  },
+  "verification": {
+    "google": "",
+    "bing": ""
+  },
+  "same_as": []
 }

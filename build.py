@@ -29,12 +29,24 @@ def load_posts():
     return sorted(posts, key=lambda p: p["date"], reverse=True)
 
 
+_V = CFG.get("verification", {})
+VERIFY = "".join(f'<meta name="{n}" content="{html.escape(_V[k])}">' for k, n in
+                 (("google", "google-site-verification"), ("bing", "msvalidate.01")) if _V.get(k))
+SITE_SCHEMA = json.dumps([
+    {"@context": "https://schema.org", "@type": "WebSite", "name": CFG["name"],
+     "alternateName": [urlparse(URL).netloc, "Stack Verdict"], "url": f"{URL}/"},
+    {"@context": "https://schema.org", "@type": "Organization", "name": CFG["name"], "url": f"{URL}/",
+     "logo": f"{URL}/icon-512.png", "description": CFG["description"],
+     **({"sameAs": CFG["same_as"]} if CFG.get("same_as") else {})}])
+
+
 def page(title, desc, body, path, extra_head=""):
     canonical = f"{URL}{path}"
     return f"""<!DOCTYPE html>
 <html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="impact-site-verification" value="9945fcc8-ba51-42b7-b2d4-29688b8ca64f">
+{VERIFY}
 <title>{html.escape(title)}</title>
 <meta name="description" content="{html.escape(desc)}">
 <link rel="canonical" href="{canonical}">
@@ -113,7 +125,8 @@ def build():
 
     hero = f'<section class="hero"><h1>{CFG["tagline"]}</h1><p>{CFG["description"]}</p></section>'
     write("/", page(f"{CFG['name']} – {CFG['tagline']}", CFG["description"],
-                    hero + '<div class="grid">' + "".join(card(p) for p in posts) + "</div>", "/"))
+                    hero + '<div class="grid">' + "".join(card(p) for p in posts) + "</div>", "/",
+                    f'<script type="application/ld+json">{SITE_SCHEMA}</script>'))
 
     for slug in ("about", "disclosure", "privacy", "contact"):
         f = ROOT / "pages" / f"{slug}.md"
@@ -123,10 +136,13 @@ def build():
             write(f"/{slug}/", page(f"{title} | {CFG['name']}", title,
                                     f'<article class="post">{markdown.markdown(raw)}</article>', f"/{slug}/"))
 
-    urls = ["/"] + [f"/{p['slug']}/" for p in posts] + ["/about/", "/disclosure/", "/privacy/", "/contact/"]
+    newest = max((str(p.get("updated", p["date"])) for p in posts), default=None)
+    urls = ([("/", newest)] + [(f"/{p['slug']}/", str(p.get("updated", p["date"]))) for p in posts]
+            + [(u, None) for u in ("/about/", "/disclosure/", "/privacy/", "/contact/")])
     (DIST / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
-        + "".join(f"<url><loc>{URL}{u}</loc></url>" for u in urls) + "</urlset>")
+        + "".join(f"<url><loc>{URL}{u}</loc>" + (f"<lastmod>{d}</lastmod>" if d else "") + "</url>" for u, d in urls)
+        + "</urlset>")
     (DIST / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {URL}/sitemap.xml\n")
     items = "".join(f"<item><title>{html.escape(p['title'])}</title><link>{URL}/{p['slug']}/</link>"
                     f"<description>{html.escape(p['description'])}</description><pubDate>{p['date']}</pubDate></item>"
