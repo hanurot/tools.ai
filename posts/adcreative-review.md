@@ -168,6 +168,8 @@ Because of the billing complaints, use the trial carefully:
 - **Creatify.** Better if you mainly need video ads, including AI avatar videos, from a lower price.
 - **Madgicx.** Better if you also want to manage and optimize your Meta ad campaigns, not just make creatives.
 
+Full comparison: [4 AdCreative.ai alternatives](/adcreative-alternatives/).
+
 ## FAQ
 
 **Does AdCreative.ai have a free plan?**
