@@ -4,6 +4,8 @@ description: "The best content brief tools for writers, editors and agencies: Fr
 date: 2026-11-16
 type: Best list
 slug: best-content-brief-tools
+seo_title: 7 Best Content Brief Generators in 2026 (Compared)
+seo_description: 'Best content brief tools for writers and agencies: Frase, Content Harmony, MarketMuse, Clearscope and more, compared by depth and price per brief.'
 ---
 
 A content brief decides whether an article ranks before anyone writes a word. A good brief tells the writer:

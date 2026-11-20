@@ -5,6 +5,8 @@ date: 2026-11-15
 updated: 2026-11-15
 type: Review
 slug: frase-review
+seo_title: 'Frase Review 2026: Is the AI SEO Agent Worth It?'
+seo_description: 'Honest Frase review: AI Agent, GEO score and Content Guard tested, 2026 pricing per article, real weaknesses and who should skip it.'
 ---
 
 **Short answer:** Frase is a strong pick if you publish SEO articles every week and want one tool that researches, drafts, optimizes and tracks how AI search engines cite you. It is a poor pick if you write one or two posts a month, or if you need deep keyword research. The 7-day free trial needs no credit card, so you can test it on a real article before paying.

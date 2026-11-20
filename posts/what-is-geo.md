@@ -4,6 +4,8 @@ description: "GEO explained in plain English: how to get your content cited by C
 date: 2026-11-15
 type: Tutorial
 slug: what-is-geo
+seo_title: What Is GEO? Generative Engine Optimization Guide
+seo_description: What GEO (Generative Engine Optimization) is, how to get cited by ChatGPT and Google AI answers, and the tools that help track it.
 ---
 
 **Short answer:** GEO, or **Generative Engine Optimization**, is the practice of making your content easy for AI answer engines (ChatGPT, Google AI Overviews and AI Mode, Perplexity, Gemini, Claude) to **find, trust and quote**. SEO gets you ranked in the links; GEO gets you cited inside the AI answer. You do it with clear structure, quotable facts with sources, real expertise, and by tracking which prompts mention you.

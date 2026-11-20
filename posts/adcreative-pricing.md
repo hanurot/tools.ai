@@ -5,6 +5,8 @@ date: 2026-11-18
 updated: 2026-11-18
 type: Pricing
 slug: adcreative-pricing
+seo_title: 'AdCreative.ai Pricing 2026: Plans & Cost per Ad'
+seo_description: "AdCreative.ai pricing explained: every plan, how download credits work, the real cost per ad ($0.83\u2013$1.95) and the Black Friday deal."
 ---
 
 **Short answer:** AdCreative.ai starts at **$39/month** for 20 downloadable creatives and 1 brand. Professional costs **$249/month** for 300 credits, 10 brands and video. Ultimate costs **$999/month** for 25 brands and 20 users. During Black Friday 2026, quarterly and yearly plans are 50% off, which brings Starter to about **$20/month**.

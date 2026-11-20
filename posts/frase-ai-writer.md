@@ -4,6 +4,8 @@ description: "Is Frase's AI writer good enough to publish? Our hands-on review o
 date: 2026-11-15
 type: Review
 slug: frase-ai-writer
+seo_title: Frase AI Writer Review 2026 + Step-by-Step Guide
+seo_description: 'Frase AI Writer tested: how it drafts SEO articles from a brief, real SEO/GEO/EEAT scores, credit costs and how to edit the draft well.'
 ---
 
 **Short answer:** Frase's AI writer produces a well-structured, research-backed first draft in a few minutes, and it is one of the better tools for writing SEO articles with AI in 2026. It does **not** replace you: in our test the draft scored 94% for GEO and 78% for SEO but only 33% for EEAT. The winning workflow is to let Frase handle research, outline and first draft, then spend your time adding real experience. This page reviews the writer first, then shows that workflow in five parts.

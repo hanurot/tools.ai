@@ -4,6 +4,8 @@ description: "Download our free 21-page Frase Playbook: a 7-day trial plan, ever
 date: 2026-11-15
 type: Free Guide
 slug: free-frase-playbook
+seo_title: Free Frase Playbook (21-Page PDF Guide)
+seo_description: 'Free 21-page Frase guide: 7-day trial plan, 28 real screenshots, a plan-picker worksheet and an EEAT editing checklist.'
 ---
 
 We put everything from our hands-on Frase trial into one printable guide, free.

@@ -4,6 +4,8 @@ description: "We ran a full Frase trial: setup, Research, content brief, AI draf
 date: 2026-11-15
 type: Tutorial
 slug: how-to-use-frase
+seo_title: 'How to Use Frase in 2026: Tutorial With Screenshots'
+seo_description: 'Step-by-step Frase tutorial from a real trial: setup, research, briefs, AI drafts, SEO/GEO/EEAT scores, AI Visibility and site audit.'
 ---
 
 We opened a Frase trial and took it from an empty account to a scored, 1,484-word draft. This guide walks through every step with real screenshots from that session, plus the settings we would change the second time around.

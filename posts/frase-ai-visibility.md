@@ -4,6 +4,8 @@ description: "How Frase AI Visibility works: prompts, visibility %, share of voi
 date: 2026-11-17
 type: Tutorial
 slug: frase-ai-visibility
+seo_title: 'Frase AI Visibility: Track ChatGPT & Google AI Mentions'
+seo_description: 'Hands-on guide to Frase AI Visibility: visibility %, share of voice, citation sources and recommendations, plus which plan tracks which AI.'
 ---
 
 More buyers now ask ChatGPT or Google's AI answers "what's the best tool for X?" instead of clicking ten blue links. If the AI never names you, you're invisible at the moment of decision. **Frase AI Visibility** tracks exactly that: which AI answers mention your brand, where you rank in them, and which websites they quote.

@@ -44,3 +44,8 @@ footer{border-top:1px solid var(--line);color:var(--muted);font-size:14px;paddin
 .signup-form button:disabled{opacity:.7}
 .signup-ok{color:var(--ink)!important;font-weight:600}
 .signup-small{font-size:13px!important;margin:10px 0 0!important}
+.crumbs{font-size:13px;color:var(--muted);padding-top:18px}
+.crumbs a{color:var(--muted);text-decoration:none}
+.related{border-top:1px solid var(--line);margin:8px 0 32px;padding-top:12px}
+.related h2{font-size:20px}
+.related li{margin:6px 0}

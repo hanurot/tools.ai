@@ -4,6 +4,8 @@ description: "Frase pricing in 2026: Starter, Professional and Scale compared, c
 date: 2026-11-15
 type: Pricing
 slug: frase-pricing
+seo_title: 'Frase Pricing 2026: Which Plan Is Worth It?'
+seo_description: 'Frase pricing explained from inside the app: Starter, Professional and Scale limits, cost per article, hidden credit costs and which plan to buy.'
 ---
 
 **Short answer:** Frase costs **$49/month** on Starter ($39/month billed yearly), **$129** on Professional ($103 yearly) and **$299** on Scale ($239 yearly). Every plan includes every feature; you pay for volume: articles, audit pages, seats, sites and AI engines tracked. Solo bloggers publishing up to 10 articles a month should pick Starter; freelancers with clients or small agencies usually need Professional.

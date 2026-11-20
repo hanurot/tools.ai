@@ -4,6 +4,8 @@ description: "Is Frase a good fit for small SEO and content agencies? Plan-by-pl
 date: 2026-11-17
 type: Review
 slug: frase-for-agencies
+seo_title: 'Frase for Agencies (2026): Which Plan Fits?'
+seo_description: Is Frase right for a small SEO agency? Plans, seats, domains, client workflows and cost per article compared for agencies in 2026.
 ---
 
 **Short answer:** Frase works well for small agencies that produce SEO content for **3–10 client sites** and want to sell "AI search visibility" as part of the retainer. For most of them **Professional** is the right plan: **$103/month billed yearly** ($129 monthly) with 3 seats, 5 domains and 40 researched and drafted articles. Agencies with up to 10 clients should look at **Scale** ($239/month yearly). The catch: **white-label reports and a branded client portal are Enterprise-only**, so on standard plans your clients see Frase-branded exports.
